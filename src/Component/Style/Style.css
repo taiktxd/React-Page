@@ -1,0 +1,150 @@
+* {
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start Header  */
+header {
+    width: 100%;
+    height: 96px;
+    background-color: transparent;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-logo img {
+    width: 80px;
+    height: 26px;
+    margin: 35px;
+    cursor: pointer;
+}
+
+header .header-menu {
+    line-height: 42px;
+    position: fixed;
+    right: 38px;
+    top: 24px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.header-menu.active {
+    background-color: black;
+}
+
+.header-menu span {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #39b54a;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-menu span:hover {
+    color: white;
+}
+
+.header-menu .header-menu-bar {
+    color: white;
+    margin-left: 10px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-menu .header-nav {
+    position: absolute;
+    top:  0;
+    right: 0;
+    background: #0C0C0C;
+    color: rgba(134, 130, 130, 0.25);
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.846;
+    padding: 3.6rem 3rem 3.6rem 3.6rem;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+}
+
+.header-nav .header-nav-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.8rem;
+
+}
+
+.header-nav-about h3 {
+    font-size: 11px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-top: 0.9rem;
+    color: #39b54a;
+}
+
+.header-nav-about i {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: none;
+    color: white;
+}
+
+.header-nav .header-nav-list {
+   list-style: none;
+   color: white;
+   margin-bottom: 1.5rem; 
+}
+
+.header-nav .header-nav-content {
+    font-size: 13px;
+}
+
+.header-nav-content .header-nav-content-a {
+    color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.header-nav-content .header-nav-content-a:hover {
+    color: white;
+}
+
+
+.header-nav .header-nav-social {
+    color: white;
+}
+
+
+/* End Header  */
+
+/* Start Home */
+.home {
+    background-image: url(https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: -177px;
+    left: 0px;
+    overflow: hidden; 
+    transform: translate3d(0px, 0px, 0px); 
+    height: 910px; 
+    width: 1583px;
+}
+
+
+/* End Home */

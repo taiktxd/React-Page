@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import HeaderComponent from './Component/HeaderComponent';
+import HomeComponent from './Component/HomeComponent';
+import './Component/Style/Style.css'
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HeaderComponent />
+    <HomeComponent />
   </React.StrictMode>
 );
 
